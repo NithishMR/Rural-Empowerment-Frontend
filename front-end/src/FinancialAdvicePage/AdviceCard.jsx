@@ -1,6 +1,11 @@
-export default function AdviceCard({ title, description, tips }) {
+export default function AdviceCard({ title, description, tips, onClick }) {
   return (
-    <div className="min-w-[300px] bg-white rounded-2xl shadow-md p-6 flex-shrink-0 hover:shadow-lg transition duration-300 ease-in-out border border-gray-200">
+    <div
+      onClick={() =>
+        onClick(`${title}: ${description}. Tips: ${tips.join(", ")}`)
+      }
+      className="cursor-pointer min-w-[300px] bg-white rounded-2xl shadow-md p-6 flex-shrink-0 hover:shadow-lg transition duration-300 ease-in-out border border-gray-200"
+    >
       <h2 className="text-xl font-semibold text-gray-800 mb-2">{title}</h2>
       <p className="text-gray-600 mb-4">{description}</p>
       <ul className="list-disc list-inside text-gray-700 text-sm space-y-1">

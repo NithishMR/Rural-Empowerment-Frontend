@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
-import SearchBar from "../FinancialAdvicePage/SearchBar";
 import SchemeList from "../components/SchemeList";
-// import SearchBar from "./SearchBar"; // your new SearchBar
-// import SchemeList from "./SchemeList"; // assume you already have this
+
 function SchemePage() {
   const [schemes, setSchemes] = useState([]);
   const [query, setQuery] = useState("");
@@ -18,7 +16,6 @@ function SchemePage() {
     setSchemes(data);
   };
 
-  // Get all unique categories from schemes
   const allCategories = Array.from(
     new Set(schemes.flatMap((scheme) => scheme.categories || []))
   );
@@ -52,12 +49,11 @@ function SchemePage() {
 
   return (
     <div className="min-h-screen bg-blue-50 flex flex-col items-center p-6 pb-40">
-      {/* Heading */}
       <h1 className="text-3xl font-bold text-blue-700 mb-6">
         Explore Government Schemes 🌱
       </h1>
 
-      {/* Category Buttons */}
+      {/* Category Filter Buttons */}
       <div className="flex flex-wrap justify-center gap-3 mb-8">
         {allCategories.map((category) => (
           <button
@@ -77,8 +73,44 @@ function SchemePage() {
       {/* Schemes List */}
       <SchemeList schemes={filteredSchemes} />
 
-      {/* Search Bar */}
-      <SearchBar onSearch={setQuery} />
+      {/* Integrated Search Bar */}
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          setQuery(query); // Ensures query state is used
+        }}
+        className="fixed bottom-4 left-1/2 transform -translate-x-1/2 w-[95%] max-w-3xl z-50"
+      >
+        <div className="flex items-center bg-white border border-gray-300 rounded-full px-4 py-3 shadow-md focus-within:ring-2 focus-within:ring-blue-500">
+          <button type="button" className="text-gray-500 mr-3">
+            🔍
+          </button>
+
+          <input
+            type="text"
+            placeholder="Search government schemes..."
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            className="flex-grow outline-none text-gray-700 placeholder-gray-400 bg-transparent"
+          />
+
+          <button
+            type="button"
+            onClick={() => alert("Voice input coming soon!")}
+            className="p-2 text-gray-500 hover:text-blue-500"
+          >
+            🎤
+          </button>
+
+          <button
+            type="submit"
+            className="p-2 bg-black text-white rounded-full ml-2 hover:bg-gray-800"
+            onClick={() => setQuery("")}
+          >
+            ➤
+          </button>
+        </div>
+      </form>
     </div>
   );
 }
