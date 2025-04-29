@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "PM Kisan Samman Nidhi",
+    "description": "₹6000 per year support to farmers.",
+    "category": "Agriculture",
+    "eligibility": "Farmers with less than 2 hectares of land",
+    "link": "https://pmkisan.gov.in",
+    "categories": ["Agriculture", "Farmer Support"]
+  },
+  {
+    "id": 2,
+    "name": "Ayushman Bharat",
+    "description": "Free healthcare insurance up to ₹5 lakh.",
+    "category": "Healthcare",
+    "eligibility": "Low-income families",
+    "link": "https://pmjay.gov.in",
+    "categories": ["Healthcare", "Insurance"]
+  },
+  {
+    "id": 3,
+    "name": "Skill India Mission",
+    "description": "Training programs for youth employment.",
+    "category": "Skill Development",
+    "eligibility": "Youth aged 18–35 years",
+    "link": "https://www.skillindia.gov.in",
+    "categories": ["Skill Development", "Employment"]
+  },
+  {
+    "id": 4,
+    "name": "PM Kisan Samman Nidhi",
+    "description": "₹6000 per year support to farmers.",
+    "category": "Agriculture",
+    "eligibility": "Farmers with less than 2 hectares of land",
+    "link": "https://pmkisan.gov.in",
+    "categories": ["Agriculture", "Farmer Support"]
+  },
+  {
+    "id": 5,
+    "name": "Ayushman Bharat",
+    "description": "Free healthcare insurance up to ₹5 lakh.",
+    "category": "Healthcare",
+    "eligibility": "Low-income families",
+    "link": "https://pmjay.gov.in",
+    "categories": ["Healthcare", "Insurance"]
+  },
+  {
+    "id": 6,
+    "name": "Skill India Mission",
+    "description": "Training programs for youth employment.",
+    "category": "Skill Development",
+    "eligibility": "Youth aged 18–35 years",
+    "link": "https://www.skillindia.gov.in",
+    "categories": ["Skill Development", "Employment"]
+  },
+  {
+    "id": 7,
+    "name": "Stand Up India Scheme",
+    "description": "Provides bank loans between ₹10 lakh to ₹1 crore for women entrepreneurs in manufacturing, trading, or services.",
+    "category": "Business",
+    "eligibility": "Women entrepreneurs aged 18+",
+    "link": "https://www.standupmitra.in",
+    "categories": ["Business", "Entrepreneurship"]
+  },
+  {
+    "id": 8,
+    "name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+    "description": "Offers collateral-free micro-credit up to ₹10 lakh to small and micro enterprises under Shishu, Kishor, and Tarun categories.",
+    "category": "Microfinance",
+    "eligibility": "Entrepreneurs needing small business loans",
+    "link": "https://www.mudra.org.in",
+    "categories": ["Microfinance", "Business"]
+  },
+  {
+    "id": 9,
+    "name": "Deendayal Antyodaya Yojana - NRLM",
+    "description": "Supports rural women through SHGs with training, microcredit, and livelihood development.",
+    "category": "Livelihood",
+    "eligibility": "Rural poor women, SHG members",
+    "link": "https://aajeevika.gov.in",
+    "categories": ["Livelihood", "Rural Development"]
+  },
+  {
+    "id": 10,
+    "name": "Udyogini Scheme",
+    "description": "Provides interest-free loans up to ₹3 lakh to women entrepreneurs from rural and economically weaker backgrounds.",
+    "category": "Entrepreneurship",
+    "eligibility": "Women aged 18–55 from BPL families",
+    "link": "https://wcd.nic.in/schemes",
+    "categories": ["Entrepreneurship", "Business Support"]
+  },
+  {
+    "id": 11,
+    "name": "Integrated Dairy Development Scheme (IDDS)",
+    "description": "Offers financial and technical support to start and sustain dairy farming businesses in rural areas.",
+    "category": "Agriculture",
+    "eligibility": "Small and marginal farmers, rural women",
+    "link": "https://www.nddb.coop",
+    "categories": ["Agriculture", "Rural Development"]
+  },
+  {
+    "id": 12,
+    "name": "Mahila Coir Yojana",
+    "description": "Supports rural women in coir-based industry with a 75% subsidy on machinery and training.",
+    "category": "Skill Development",
+    "eligibility": "Women in rural areas, preferably trained in coir processing",
+    "link": "https://coirboard.gov.in",
+    "categories": ["Skill Development", "Women Empowerment"]
+  },
+  {
+    "id": 13,
+    "name": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+    "description": "Enables zero-balance savings accounts for financial inclusion and direct benefit transfers.",
+    "category": "Banking",
+    "eligibility": "All Indian citizens without a bank account",
+    "link": "https://pmjdy.gov.in",
+    "categories": ["Banking", "Financial Inclusion"]
+  },
+  {
+    "id": 14,
+    "name": "Mahila Samman Savings Certificate",
+    "description": "Provides 7.5% fixed interest for 2 years, available for investments up to ₹2 lakh by women.",
+    "category": "Savings",
+    "eligibility": "All Indian women",
+    "link": "https://www.indiapost.gov.in",
+    "categories": ["Savings", "Women Empowerment"]
+  },
+  {
+    "id": 15,
+    "name": "Rural Skill Development - DDU-GKY",
+    "description": "Skill training and placement programs for rural youth including women in various trades.",
+    "category": "Skill Development",
+    "eligibility": "Rural women aged 15–35 from poor households",
+    "link": "https://ddugky.gov.in",
+    "categories": ["Skill Development", "Youth Empowerment"]
+  },
+  {
+    "id": 16,
+    "name": "Atal Pension Yojana (APY)",
+    "description": "Pension scheme for informal sector workers ensuring income after retirement.",
+    "category": "Pension",
+    "eligibility": "Unorganized sector workers aged 18–40 with a savings account",
+    "link": "https://www.npscra.nsdl.co.in/scheme-details.php",
+    "categories": ["Pension", "Retirement Planning"]
+  }
+]
